@@ -33,7 +33,7 @@ With seamless integration into existing faculty systems, it synchronizes academi
 
    # Documentation
 
-   1. [Home Page] (https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki)
+   1. [Home Page](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki)
    2. ER and User case diagram
    3. 
 
