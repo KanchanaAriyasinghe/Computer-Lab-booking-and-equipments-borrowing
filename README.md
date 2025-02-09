@@ -35,7 +35,7 @@ With seamless integration into existing faculty systems, it synchronizes academi
 
    1. [Home](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki)
    2. ER and User case diagram
-   3. [Requirement Analysis](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing.wiki.git)
+   3. [Requirement Analysis]([https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing.wiki.git](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki/3.-Requirement-Analysis))
 
    # 👥 Team Members
    1. PERERA A.Y.I.D – 2021/E/009 – Designer, QA
