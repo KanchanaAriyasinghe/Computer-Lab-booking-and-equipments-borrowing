@@ -31,6 +31,8 @@ With seamless integration into existing faculty systems, it synchronizes academi
 8. Ensure Security and Scalability:
    Build a secure system capable of scaling to accommodate institutional growth and evolving requirements.
 
+   # Documentation
+
    # 👥 Team Members
    1. PERERA A.Y.I.D – 2021/E/009 – Designer, QA
    2. CHANDRASEKARA I.T.A – 2021/E/054 – Developer
