@@ -33,6 +33,10 @@ With seamless integration into existing faculty systems, it synchronizes academi
 
    # Documentation
 
+   1. Home
+   2. ER and User case diagram
+   3. 
+
    # 👥 Team Members
    1. PERERA A.Y.I.D – 2021/E/009 – Designer, QA
    2. CHANDRASEKARA I.T.A – 2021/E/054 – Developer
