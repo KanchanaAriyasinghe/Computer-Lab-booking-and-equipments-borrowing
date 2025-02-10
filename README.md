@@ -47,3 +47,6 @@ With seamless integration into existing faculty systems, it synchronizes academi
    3. ARIYASINGHE P.G.K.G.I - 2021/E/110 - PM
    4. NAVEEN V.V.D – 2021/E/170 - Developer
    5. SAFANA J.F – 2020/E/135 - RA and Documentation
+
+   ![WhatsApp Image 2025-01-20 at 12 18 15_fb506bd6](https://github.com/user-attachments/assets/2e5e11cd-0cec-40a3-b1ce-b43777713697)
+
