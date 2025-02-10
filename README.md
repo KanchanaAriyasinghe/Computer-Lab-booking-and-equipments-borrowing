@@ -1,5 +1,9 @@
 # Computer-Lab-booking-and-equipments-borrowing
 
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/f06d1374-f9b1-4769-80b3-1c25fa9fa89b" />
+
+
+
 # Introduction
 The Computer Lab Booking and Equipment Borrowing System is designed to modernize resource management in educational institutions. It provides an intuitive platform for students, faculty, and administrators to efficiently reserve computer labs and borrow equipment. By automating these processes, the system eliminates manual tracking, reduces administrative overhead, and ensures equitable access to resources.
 
