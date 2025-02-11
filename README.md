@@ -11,29 +11,16 @@ With seamless integration into existing faculty systems, it synchronizes academi
 
 # Objectives 
 
-1. Automate Resource Management:
-   Simplify and automate the process of booking computer labs and borrowing equipment to eliminate manual tasks.  
+1. Easy Lab and Equipment Booking: Makes it simple for students and faculty to book labs and borrow equipment, avoiding scheduling problems and reducing paperwork.  
 
-2. Enhance User Accessibility: 
-   Provide a user-friendly platform accessible to students, faculty, and administrators for easy resource management.  
+2. Better User Experience: Provides a simple, user-friendly platform with real-time updates to make the booking process smooth and convenient.  
 
-3. Ensure Efficient Resource Utilization:  
-   Optimize lab usage and equipment allocation through real-time availability tracking and scheduling.  
+3. Secure Access: Ensures only authorized users can make bookings by connecting with the institution's login system.  
 
-4. Integrate with Existing Systems:  
-   Seamlessly connect with faculty systems for synchronized user data, academic schedules, and resource availability.  
+4. Helpful Tools for Administrators: Helps administrators manage schedules, track equipment, and monitor user accounts easily, with useful reports for better decisions.  
 
-5. Enable Role-Based Access Control:  
-   Implement secure access controls based on user roles (students, faculty, administrators).  
+5. Scalable and Reliable: Built to handle many users at the same time while staying secure and easy to use.  
 
-6. Improve Administrative Oversight:
-   Provide tools for administrators to monitor and manage lab reservations, equipment inventory, and usage reports.  
-
-7. Support Data-Driven Decision-Making:  
-   Generate analytics and reports to help institutions optimize resource allocation and future planning.  
-
-8. Ensure Security and Scalability:
-   Build a secure system capable of scaling to accommodate institutional growth and evolving requirements.
 
    # Documentation
 
