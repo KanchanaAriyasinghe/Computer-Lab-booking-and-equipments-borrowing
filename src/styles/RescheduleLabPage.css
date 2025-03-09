@@ -1,0 +1,114 @@
+/* General page styles */
+.page-container {
+  display: flex;
+}
+
+/* Main content styling */
+.reschedule-container {
+  margin-left: 250px; /* Adjusted for Sidebar width */
+  padding: 40px;
+  width: 80%;
+  background-color: #f4f8ff;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Form styling */
+.reschedule-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border 0.3s ease-in-out;
+}
+
+.form-group input[type="date"],
+.form-group input[type="time"] {
+  width: 48%;
+  display: inline-block;
+}
+
+.form-group input[type="date"]:not(:last-child),
+.form-group input[type="time"]:not(:last-child) {
+  margin-right: 4%;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* File input */
+.form-group input[type="file"] {
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Submit button */
+.reschedule-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reschedule-btn:hover {
+  background-color: #45a049;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .reschedule-container {
+    margin-left: 0;
+    width: 100%;
+  }
+}

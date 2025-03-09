@@ -1,0 +1,93 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f7fb; /* Add a background color to the page */
+  }
+  
+  .left-side {
+    flex: 1;
+    background-color: #5580e9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-side h1, .left-side h2, .left-side p {
+    text-align: center;
+  }
+  
+  .left-side .image-container {
+    margin-top: 20px;
+  }
+  
+  .left-side .login-image {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .role-selector {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .role-selector button {
+    background-color: #5a88eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5580e9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-microsoft {
+    background-color: #48b0f2;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .login-microsoft span {
+    margin-left: 10px;
+  }
+  
+  

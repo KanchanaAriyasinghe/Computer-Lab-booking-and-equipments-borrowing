@@ -1,39 +1,70 @@
-# Computer-Lab-booking-and-equipments-borrowing
+# Getting Started with Create React App
 
-<img width="446" alt="image" src="https://github.com/user-attachments/assets/f06d1374-f9b1-4769-80b3-1c25fa9fa89b" />
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-# Introduction
-The Computer Lab Booking and Equipment Borrowing System is designed to modernize resource management in educational institutions. It provides an intuitive platform for students, faculty, and administrators to efficiently reserve computer labs and borrow equipment. By automating these processes, the system eliminates manual tracking, reduces administrative overhead, and ensures equitable access to resources.
+### `npm start`
 
-With seamless integration into existing faculty systems, it synchronizes academic schedules, user data, and resource availability, fostering streamlined operations and better resource utilization across departments. This solution empowers educational institutions with a secure, scalable, and user-friendly approach to resource management.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Objectives 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Easy Lab and Equipment Booking: Makes it simple for students and faculty to book labs and borrow equipment, avoiding scheduling problems and reducing paperwork.  
+### `npm test`
 
-2. Better User Experience: Provides a simple, user-friendly platform with real-time updates to make the booking process smooth and convenient.  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Secure Access: Ensures only authorized users can make bookings by connecting with the institution's login system.  
+### `npm run build`
 
-4. Helpful Tools for Administrators: Helps administrators manage schedules, track equipment, and monitor user accounts easily, with useful reports for better decisions.  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5. Scalable and Reliable: Built to handle many users at the same time while staying secure and easy to use.  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   # Documentation
+### `npm run eject`
 
-   1. [Home](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki)
-   2. [ER and User case diagram](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki/ER-and-User-case-diagram)
-   3. [Requirement Analysis](https://github.com/KanchanaAriyasinghe/Computer-Lab-booking-and-equipments-borrowing/wiki/3.-Requirement-Analysis)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   # 👥 Team Members
-   1. PERERA A.Y.I.D – 2021/E/009 – Designer, QA
-   2. CHANDRASEKARA I.T.A – 2021/E/054 – Developer
-   3. ARIYASINGHE P.G.K.G.I - 2021/E/110 - PM
-   4. NAVEEN V.V.D – 2021/E/170 - Developer
-   5. SAFANA J.F – 2020/E/135 - RA and Documentation
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   ![WhatsApp Image 2025-01-20 at 12 18 15_fb506bd6](https://github.com/user-attachments/assets/2e5e11cd-0cec-40a3-b1ce-b43777713697)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

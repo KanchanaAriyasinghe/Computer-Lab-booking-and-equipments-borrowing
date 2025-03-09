@@ -1,0 +1,55 @@
+/* global.css or app.css */
+
+/* Ensure the body has no margins and padding to avoid content overlapping */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* App container holds both Sidebar and content */
+  .app-container {
+    display: flex;
+    margin-top: 20px; /* Add space at the top if needed */
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;  /* Make sure the sidebar has a fixed width */
+    background-color: #5580E9;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; /* Make sure padding does not affect width */
+  }
+  
+  /* The content section that will appear on the right of the sidebar */
+  .content {
+    margin-left: 250px; /* Offset content to the right of the sidebar */
+    padding: 20px;
+    flex: 1; /* Ensures content takes up the remaining space */
+    overflow: auto; /* Allow content to scroll if needed */
+  }
+  
+  /* Adjust for smaller screens */
+  @media (max-width: 768px) {
+    .app-container {
+      flex-direction: column; /* Stack sidebar and content vertically on small screens */
+    }
+  
+    .sidebar {
+      width: 100%; /* Make sidebar full width on smaller screens */
+      position: static; /* Sidebar will move up with the page */
+      height: auto;
+    }
+  
+    .content {
+      margin-left: 0; /* Remove left margin */
+    }
+  }
+  

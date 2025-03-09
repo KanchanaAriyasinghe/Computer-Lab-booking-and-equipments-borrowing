@@ -1,0 +1,140 @@
+.home-page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #5580e9;
+  width: 250px;
+  height: 100%;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 80px; /* Adjust logo size as needed */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1; /* Ensures the list items take all the available space */
+}
+
+.sidebar ul li {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.sidebar ul li:last-child {
+  padding-top: 200px; /* Adds some space before the Logout button */
+}
+
+.main-content {
+  margin-left: 1000px;
+  width: 800px ;
+  
+ 
+}
+
+.welcome-banner {
+  background-color: #5580e9;
+  margin-left: 50px;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between; /* Ensures space between text and image */
+  align-items: center; /* Centers the text and image vertically */
+}
+
+.welcome-banner h2{
+color: rgb(255, 238, 83);
+font-size: 40px;
+flex: 2; }
+
+.welcome-banner p {
+  color: rgb(217, 255, 196);
+  flex: 2; /* This ensures the text takes the available space */
+}
+
+.welcome-image {
+  max-width: 200px; /* Adjust the image size */
+  max-height: 200px; /* Adjust the image size */
+  object-fit: contain; /* Ensures the image fits without distortion */
+  border-radius: 8px;
+}
+
+/* Lab Schedule Table CSS */
+.lab-schedule {
+  margin-left: 50px;
+  margin-top: 80px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.lab-schedule h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.lab-schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.lab-schedule th, .lab-schedule td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Uniform background color for all columns */
+.lab-schedule th {
+  background-color: #5580e9; /* Header row background */
+  color: white; /* Text color for header */
+  font-size: 16px;
+}
+
+.lab-schedule tr:nth-child(even) td {
+  background-color: #f4f4f4; /* Alternating row colors */
+}
+
+.lab-schedule tr:hover td {
+  background-color: #e1e1e1; /* Hover effect */
+}
+
+.lab-schedule td:empty {
+  background-color: #f0f0f0; /* Empty cells with light background */
+}
+
+.lab-schedule tr:last-child td {
+  border-bottom: none;
+}
+
+.lab-schedule td:first-child {
+  font-weight: bold;
+}
