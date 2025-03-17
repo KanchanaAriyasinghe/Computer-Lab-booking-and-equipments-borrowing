@@ -1,0 +1,80 @@
+/* Container for the entire layout */
+.lab-management-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Lab cards container */
+  .lab-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual lab card styling */
+  .lab-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .lab-card h2 {
+    font-size: 18px;
+  }
+  
+  .lab-card p {
+    color: #666;
+  }
+  
+  /* Edit button styling */
+  .edit-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #357ae8;
+  }
+  
+  /* Add lab button styling */
+  .add-lab-button {
+    margin-top: 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .add-lab-button:hover {
+    background-color: #357ae8;
+  }
+  

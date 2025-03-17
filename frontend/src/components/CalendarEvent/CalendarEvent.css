@@ -1,0 +1,9 @@
+/* src/components/CalendarEvent/CalendarEvent.css */
+.calendar-event {
+    background-color: #90caf9;
+    color: #1a237e;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 0.75em;
+}

@@ -1,0 +1,21 @@
+/* src/components/Header/Header.css */
+.header {
+    background-color: #673ab7;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .header-image img {
+    border-radius: 50%;
+  }
+  

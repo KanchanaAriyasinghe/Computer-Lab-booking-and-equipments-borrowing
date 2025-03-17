@@ -1,0 +1,215 @@
+/* AddStudentForm.css */
+
+
+.add-student-container {
+    display: flex;
+   }
+   
+   
+   .form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+   }
+   
+   
+   .form-wrapper {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   
+   .form-group {
+    margin-bottom: 15px;
+   }
+   
+   
+   label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+   }
+   
+   
+   input[type="text"],
+   input[type="email"],
+   input[type="password"],
+   select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+   }
+   
+   
+   select {
+    height: 34px;
+   }
+   
+   
+   .add-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+   }
+   
+   
+   .add-button:hover {
+    background-color: #2980b9;
+   }
+   
+   
+   h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+   }
+   
+   
+   .form-container > div {
+    margin: 10px;
+   }
+   
+   
+   .form-container > h2 {
+    margin: 10px;
+   }
+   .sidebar {
+    position: relative;
+    width: 240px;
+    min-height: 100vh; /* Ensure it fills the vertical height */
+    background-color: #4a69bd; /* Solid background color */
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    overflow: hidden; /* Hide content when sidebar is closed */
+    color: white; /* Set text color to white for better contrast */
+   }
+   
+  
+   .sidebar .logo-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+   }
+   
+  
+   .sidebar .logo-details i {
+    font-size: 30px;
+    color: #fff;
+    min-width: 78px;
+    text-align: center;
+    cursor: pointer;
+   }
+   
+  
+   .sidebar .logo-details .logo_name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    white-space: nowrap; /* Prevent text wrapping */
+   }
+   
+  
+   .sidebar.open .logo-details .logo_name {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+  
+   .sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+    padding: 0;
+    list-style: none;
+   }
+   
+  
+   .sidebar .nav-list li {
+    position: relative;
+    margin: 10px 0;
+    transition: all 0.4s ease;
+   }
+   
+  
+   .sidebar .nav-list li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    white-space: nowrap; /* Prevent text wrapping */
+   }
+   
+  
+   .sidebar .nav-list li a i {
+    font-size: 22px;
+    margin-right: 10px;
+    transition: all 0.4s ease;
+   }
+   
+  
+   .sidebar .nav-list li a .links_name {
+    transition: all 0.5s ease;
+    opacity: 1; /* Ensure text is visible when sidebar is open */
+   }
+   
+  
+   .sidebar.open .nav-list li a .links_name {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+  
+   .sidebar .nav-list li a:hover,
+   .sidebar .nav-list li a.active {
+    background: rgba(255, 255, 255, 0.1);
+   }
+   
+  
+   /* Tooltip Styles */
+   .sidebar .nav-list li .tooltip {
+    position: absolute;
+    top: 0;
+    left: 78px;
+    border-radius: 6px;
+    height: 35px;
+    width: 122px;
+    background: #fff;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0s ease;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    color: #3498db;
+   }
+   
+  
+   .sidebar.open .nav-list li:hover .tooltip {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.5s ease;
+    left: 78px;
+   }
+   
+  
+   /* Style for the X icons */
+   .sidebar-icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+   }   

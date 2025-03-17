@@ -1,0 +1,13 @@
+.home-container {
+    justify-content: center;
+    display: flex;
+    height: 100vh; /* Set height to full viewport height */
+  }
+  
+  .home-content {
+    justify-items: center;
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  

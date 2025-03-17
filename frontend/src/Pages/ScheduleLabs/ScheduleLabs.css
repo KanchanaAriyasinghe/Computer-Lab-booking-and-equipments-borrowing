@@ -1,0 +1,258 @@
+/* ScheduleLabs.css */
+
+.schedule-labs-page {
+    display: flex;
+    height: 100vh; /* Make sure the page takes up the full viewport height */
+  }
+  
+  .schedule-labs-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Take up remaining space */
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  .schedule-labs-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Vertically center the form */
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .schedule-labs-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust width as needed */
+  }
+  
+  .schedule-labs-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box; /* Important to include padding and border in the element's total width and height */
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .schedule-button {
+    background-color: #3498db; /* Example blue color */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .schedule-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style adjustments for header and sidebar */
+  /* You might need to adjust these based on your actual Header and Sidebar components */
+  .schedule-labs-page > * {
+    /* You may need to adjust width/height here */
+  }
+  
+  /*  Override default select styles for consistent look */
+  select {
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); /* Custom arrow using SVG */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+  
+  select::-ms-expand {
+      display: none; /* For IE 11 */
+  }
+  .sidebar {
+    position: relative;
+    width: 240px;
+    min-height: 100vh; /* Ensure it fills the vertical height */
+    background-color: #4a69bd; /* Solid background color */
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    overflow: hidden; /* Hide content when sidebar is closed */
+    color: white; /* Set text color to white for better contrast */
+   }
+   
+  
+   .sidebar .logo-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+   }
+   
+  
+   .sidebar .logo-details i {
+    font-size: 30px;
+    color: #fff;
+    min-width: 78px;
+    text-align: center;
+    cursor: pointer;
+   }
+   
+  
+   .sidebar .logo-details .logo_name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    white-space: nowrap; /* Prevent text wrapping */
+   }
+   
+  
+   .sidebar.open .logo-details .logo_name {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+  
+   .sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+    padding: 0;
+    list-style: none;
+   }
+   
+  
+   .sidebar .nav-list li {
+    position: relative;
+    margin: 10px 0;
+    transition: all 0.4s ease;
+   }
+   
+  
+   .sidebar .nav-list li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    white-space: nowrap; /* Prevent text wrapping */
+   }
+   
+  
+   .sidebar .nav-list li a i {
+    font-size: 22px;
+    margin-right: 10px;
+    transition: all 0.4s ease;
+   }
+   
+  
+   .sidebar .nav-list li a .links_name {
+    transition: all 0.5s ease;
+    opacity: 1; /* Ensure text is visible when sidebar is open */
+   }
+   
+  
+   .sidebar.open .nav-list li a .links_name {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+  
+   .sidebar .nav-list li a:hover,
+   .sidebar .nav-list li a.active {
+    background: rgba(255, 255, 255, 0.1);
+   }
+   
+  
+   /* Tooltip Styles */
+   .sidebar .nav-list li .tooltip {
+    position: absolute;
+    top: 0;
+    left: 78px;
+    border-radius: 6px;
+    height: 35px;
+    width: 122px;
+    background: #fff;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0s ease;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    color: #3498db;
+   }
+   
+  
+   .sidebar.open .nav-list li:hover .tooltip {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.5s ease;
+    left: 78px;
+   }
+   
+  
+   /* Style for the X icons */
+   .sidebar-icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+   }
+  /* Style for success/error messages */
+ .message {
+    text-align: center;
+    padding: 12px; /* Adjusted padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 15px; /* Increased margin */
+    font-size: 16px; /* Adjusted font size */
+  }
+  
+  .message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .message.error {
+    color: rgba(255, 0, 0, 0.728); /* set error message as red color */
+  }
+  
+  /* Override default select styles for consistent look */
+  select {
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); /* Custom arrow using SVG */
+    background-repeat: no-repeat;
+    background-position: right 15px center; /* Adjusted arrow position */
+    background-size: 20px;
+  }
+  
+  select::-ms-expand {
+    display: none; /* For IE 11 */
+  }

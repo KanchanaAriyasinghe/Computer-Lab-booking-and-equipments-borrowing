@@ -1,0 +1,303 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  .student-management-container {
+    display: flex;
+    height: 100vh; /* Full height viewport */
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 200px;
+    background-color: #3f51b5; /*  A blue color, adjust as needed */
+    color: white;
+    padding: 20px;
+    border-radius: 0 10px 10px 0; /* Rounded bottom corners on the right */
+  }
+  
+  .sidebar-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu li.active, .sidebar-menu li:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter background on hover/active */
+  }
+  
+  .sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar-menu li i {
+    margin-right: 8px;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-bar button {
+    background-color: #ddd;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .student-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-table button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Add Student Button Styles */
+  .add-student-button {
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-student-button:hover {
+    background-color: #303f9f;
+  }
+  .sidebar {
+    position: relative;
+    width: 240px;
+    min-height: 100vh; /* Ensure it fills the vertical height */
+    background-color: #4a69bd; /* Solid background color */
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    overflow: hidden; /* Hide content when sidebar is closed */
+    color: white; /* Set text color to white for better contrast */
+   }
+   
+  
+   .sidebar .logo-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+   }
+   
+  
+   .sidebar .logo-details i {
+    font-size: 30px;
+    color: #fff;
+    min-width: 78px;
+    text-align: center;
+    cursor: pointer;
+   }
+   
+  
+   .sidebar .logo-details .logo_name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    white-space: nowrap; /* Prevent text wrapping */
+   }
+   
+  
+   .sidebar.open .logo-details .logo_name {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+  
+   .sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+    padding: 0;
+    list-style: none;
+   }
+   
+  
+   .sidebar .nav-list li {
+    position: relative;
+    margin: 10px 0;
+    transition: all 0.4s ease;
+   }
+   
+  
+   .sidebar .nav-list li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    white-space: nowrap; /* Prevent text wrapping */
+   }
+   
+  
+   .sidebar .nav-list li a i {
+    font-size: 22px;
+    margin-right: 10px;
+    transition: all 0.4s ease;
+   }
+   
+  
+   .sidebar .nav-list li a .links_name {
+    transition: all 0.5s ease;
+    opacity: 1; /* Ensure text is visible when sidebar is open */
+   }
+   
+  
+   .sidebar.open .nav-list li a .links_name {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+  
+   .sidebar .nav-list li a:hover,
+   .sidebar .nav-list li a.active {
+    background: rgba(255, 255, 255, 0.1);
+   }
+   
+  
+   /* Tooltip Styles */
+   .sidebar .nav-list li .tooltip {
+    position: absolute;
+    top: 0;
+    left: 78px;
+    border-radius: 6px;
+    height: 35px;
+    width: 122px;
+    background: #fff;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0s ease;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+    color: #3498db;
+   }
+   
+  
+   .sidebar.open .nav-list li:hover .tooltip {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.5s ease;
+    left: 78px;
+   }
+   
+  
+   /* Style for the X icons */
+   .sidebar-icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+   }
+  /* Style for success/error messages */
+ .message {
+    text-align: center;
+    padding: 12px; /* Adjusted padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 15px; /* Increased margin */
+    font-size: 16px; /* Adjusted font size */
+  }  
+   /* StudentManagement.css */
+ 
+
+ /* Existing styles... */
+ 
+
+ .edit-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: rgb(12, 12, 12);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+ }
+ 
+
+ .delete-button {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: rgb(12, 12, 12);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 5px;
+ }
+ 
+
+ .edit-button:hover {
+  background-color: #367c39;
+ }
+ 
+
+ .delete-button:hover {
+  background-color: #d32f2f;
+ }
+ 
+
